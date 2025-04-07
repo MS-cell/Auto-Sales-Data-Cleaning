@@ -1,0 +1,12 @@
+# Data_Cleaning_Summary.txt
+
+1. I had Import the Library, Required for the Datasets, (Pandas & Numpy)
+2. Load the Dataset, df = pd.read_csv('Auto Sales data.csv')
+3. To Check Dataset Preview; df.head()
+4. To chcek Dataset information; df.info()
+5. To Check Missing or Nulls Values; df.isnull().sum()
+6. After the Cleaning Dataset Process, Review; df.info()
+df.describe()
+7. To Saved the Cleaned Dataset; df.to_csv('Auto_Sales_Data_Cleaned.csv', index=False)
+Are the Basic Requirements To Cleaning the Dataset From Jupyter Notebook.
+
